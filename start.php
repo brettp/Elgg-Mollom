@@ -28,11 +28,8 @@
  * ALSO thought about queuing the changes into an object and only replying them once validated, but this runs into
  * the same problem with the hooks not being good enough...
  *
- * @package Mollom
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
- *
- * @todo - Incrementer for API calls left.  (I have no idea how to do this...mollom's site isn't clear what counts as a call)
- * @todo - Make the mollom ID stick when calling function
+ * @todo Mollom's stats page and my counters regularly disagree about how many API calls have been made.
+ * @todo Option to only scan content with URLs in it. Would reduce API calls.
  */
 
 /**
