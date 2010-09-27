@@ -248,9 +248,7 @@ function mollom_url_check($hook, $action, $value, $params) {
 	global $CONFIG;
 
 	// don't try if not correctly installed or we're an admin.
-	if (!$CONFIG->mollom['use_content_filter']
-	//|| isadminloggedin()
-	) {
+	if (!$CONFIG->mollom['use_content_filter'] || isadminloggedin()) {
 		return NULL;
 	}
 
