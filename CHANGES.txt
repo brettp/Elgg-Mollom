@@ -1,0 +1,2 @@
+Mollom 1.0b - September 27, 2010
+ * Initial release.
